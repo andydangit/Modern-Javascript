@@ -1,44 +1,16 @@
-// let age = 25;
-// let year = 2020;
-// console.log(age, year);
+// common string methods 
 
+let email = 'mario@thenetninja.co.uk';
 
-// age = 30;
-// console.log(age);
+// let result = email.lastIndexOf('n');
 
-// const points = 100; 
-// console.log(points);
+// let result = email.slice(0,5);
 
+// let result = email.substr(4,10);
 
-// // this is the old way to write variable
-// var score = 75;
-// console.log(score);
+// let result = email.replace('m', 'w');
 
+let result = email.replace('n', 'w');
 
+console.log(result);
 
-// strings
-console.log('hello, world');
-
-let email = "mario@thenetninja.co.uk";
-console.log(email);
-
-//string concatenation
-let firstName = 'Brandon';
-let lastName = 'Sanderson';
-
-let fullName = firstName + " " + lastName;
-console.log(fullName);
-
-//getting characters
-console.log(fullName[2]);
-
-//string length
-console.log(fullName.length);
-
-//string methods
-console.log(fullName.toUpperCase());
-let result = fullName.toLowerCase();
-console.log(result, fullName);
-
-let index = email.indexOf('@');
-console.log(index);
