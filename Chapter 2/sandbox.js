@@ -16,4 +16,4 @@ console.log(points);
 var score = 75;
 console.log(score);
 
-/testing 
+//testing 
