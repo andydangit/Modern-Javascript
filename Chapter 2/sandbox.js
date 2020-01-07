@@ -15,3 +15,5 @@ console.log(points);
 // this is the old way to write variable
 var score = 75;
 console.log(score);
+
+/testing 
