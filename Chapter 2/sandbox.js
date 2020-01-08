@@ -31,6 +31,6 @@ let likes = 10;
 // console.log(5 / 'hello')
 // console.log(5 * 'hello');
 
-let result = 'the blog has ' + likes + ' likes';
+// let result = 'the blog has ' + likes + ' likes';
 
-console.log(result);
+// console.log(result);
