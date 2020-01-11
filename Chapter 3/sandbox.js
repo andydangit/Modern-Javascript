@@ -9,3 +9,7 @@ if(password.length >= 12 && password.includes('@') && password.includes('s')){
 } else {
     console.log('it is not strong enought');
 }
+
+
+
+tesing 
