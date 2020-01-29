@@ -1,12 +1,10 @@
-const link = document.querySelector('a');
+const title = document.querySelector('h1');
 
-console.log(link.getAttribute('href'));
-link.setAttribute('href', 'https://www.gamefaqs.com');
-link.innerText = "The Net Ninja Website";
+// title.setAttribute('style', 'margin: 50px');
+console.log(title.style);
+console.log(title.style.color);
 
-
-const mssg = document.querySelector('p');
-
-console.log(mssg.getAttribute('class'));
-mssg.setAttribute('class', 'success');
-mssg.setAttribute('style', 'color: red');
+title.style.margin = '50px';
+title.style.color = 'crimson';
+title.style.fontSize = '60px';
+title.style.margin = '';
