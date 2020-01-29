@@ -1,10 +1,6 @@
-const title = document.querySelector('h1');
+// const content = document.querySelector('p');
 
-// title.setAttribute('style', 'margin: 50px');
-console.log(title.style);
-console.log(title.style.color);
-
-title.style.margin = '50px';
-title.style.color = 'crimson';
-title.style.fontSize = '60px';
-title.style.margin = '';
+// console.log(content.classList);
+// content.classList.add('error');
+// content.classList.remove('error');
+// content.classList.add('success');
