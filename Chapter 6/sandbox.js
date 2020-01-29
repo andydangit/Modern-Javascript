@@ -1,21 +1,12 @@
-const para = document.querySelector('p');
+const link = document.querySelector('a');
 
-// console.log(para.innerText);
-    // para.innerText = ' ninjas are awesome!';
+console.log(link.getAttribute('href'));
+link.setAttribute('href', 'https://www.gamefaqs.com');
+link.innerText = "The Net Ninja Website";
 
-    const paras = document.querySelectorAll('p');
 
-    // paras.forEach(para => {
-    //     console.log(para.innerText);
-    //     para.innerText += ' new text';
-    // });
+const mssg = document.querySelector('p');
 
-const content = document.querySelector('.content');
-    // console.log(content.innerHTML);
-    // content.innerHTML = '<h2> THIS IS A NEW H2 </h2> ';
-
-    const people = ['mario', 'luigi', 'yoshi'];
-
-    people.forEach(person => {
-        content.innerHTML += `<p>${person} </p>`;
-    });
+console.log(mssg.getAttribute('class'));
+mssg.setAttribute('class', 'success');
+mssg.setAttribute('style', 'color: red');
